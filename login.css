@@ -1,0 +1,248 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+
+}
+.FormContainer{
+    position: relative;
+    width:400px;
+    height:106vh;
+    z-index: 999;
+    left:500px;
+    align-items: center;
+    box-shadow: 1px 5px 10px black;
+    border-radius: 20px;
+    background-color: rgb(255,248,248);
+    margin-top: -25px;
+    overflow-x: hidden ;
+    margin-bottom: 10px;
+     
+}
+.icon-container{
+    height: 20px;
+    width:400px;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+.icon-container i {
+    background: linear-gradient(135deg, #1e3a8a 0%, #4338ca 50%, #6d28d9 100%);
+    color:white;
+    font-size: 30px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.Title{
+    font-family: puppins , sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top:70px;
+    left:87px;
+    color:rgb(32, 32, 32)
+}
+.Choice{
+    position:relative;
+    width:400px;
+    height: 40px;
+    top : 80px;
+    margin-left: -10px;
+}
+.Choice ul li {
+    display: inline-block;
+    padding:9px;
+    width:130px;
+    margin-left:0px;
+    margin-right: 5px;
+}
+.Choice ul li a {
+    text-decoration: none;
+    font-family:cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: -20px;
+}
+.FChoice a {
+    color:rgb(255, 255, 255);
+    background: linear-gradient(135deg, #1e3a8a 0%, #4338ca 50%, #6d28d9 100%);
+    padding: 10px 50px;
+    margin-left: -30px;
+    top: 40px;
+    position: absolute;
+}
+.SChoice a {
+    padding: 10px 40px;
+    color:rgb(20,20,20);
+    background-color: rgb(242, 240, 240);
+    box-shadow: 1px 1px 3px rgba(28, 28, 28, 0.233);
+    margin-left:165px;
+    position: absolute;
+    top:40px;
+}
+.FChoice:hover{
+    filter: saturate(2);
+    transition: 0.3s ease-in-out;
+}
+.SChoice:hover{
+    filter:brightness(0.8);
+    transition: 0.3s ease-in-out;
+}
+.InputsHolder{
+    position: relative;
+    height: 350px;
+    width:400px;
+    top : 100px;
+}
+h3 {
+    font-family:'Inter' , sans-serif;
+    color:rgb(30,30,30);
+    margin-left: 10px;
+    font-weight: 400;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #f5f5f5;   /* light background */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.45rem 0.8rem;
+  margin-bottom: 1rem;
+  width:340px;
+  margin-left: 5px;
+}
+input::placeholder{
+    color:rgb(178, 177, 177)
+}
+.input-group i {
+  color: #858585;
+  margin-right: 0.6rem;
+  font-size: 1rem;
+}
+.input-group i:hover , .input-group #togglePassword:hover{
+    color:#6d28d9;
+}
+.input-group input {
+  border: none;
+  outline: none;
+  flex: 1;  
+  font-size: 1rem;
+  background: transparent;
+}
+.input-group #togglePassword {
+  margin-left: 0.6rem;
+  color: #888;
+  cursor: pointer;
+}
+.FormLinks {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 12px;
+  margin-top: -80px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 65;
+  margin-top: -20px;
+}
+.LoginButton {
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 320px;
+  margin-left: 30px;
+  cursor: grab;
+}
+.LoginButton a {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    background: linear-gradient(135deg, #1e3a8a 0%, #4338ca 50%, #6d28d9 100%);
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    gap: 8px;
+    width: 320px;
+    cursor: grab;
+}
+.LoginButton a:hover {
+    filter: saturate(2);
+    transition: 0.3s ease-in-out;
+}
+.ForgottenPassword a {
+  color: #555;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: color 0.3s ease;
+  margin-left:20px;
+}
+.ForgottenPassword a:hover{
+    filter: invert(1);
+}
+.Warning {
+  background: #fff3cd;
+  border: 1px solid #ffeeba;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-top: 25px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  height: 90px;
+  margin-top:100px;
+}
+.Warning h1 {
+  font-size: 1rem;
+  color: #856404;
+  margin: 0 0 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Warning i {
+  color: #d39e00;
+  font-size: 1.2rem;
+}
+.Warning p {
+  font-size: 0.9rem;
+  color: #856404;
+  line-height: 1.4;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  display: none; /* hidden by default */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow-x: hidden ;
+}
+.close-btn {
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width:20px;
+  height: 20px;
+  left:320px;
+  padding: 20px;
+}

@@ -1,0 +1,325 @@
+[2025-09-11 20:09:32] Upload process started
+[2025-09-11 20:09:32] User ID: 1
+[2025-09-11 20:09:32] POST request received
+[2025-09-11 20:09:32] Bio: 
+[2025-09-11 20:09:32] FILES data: Array
+(
+    [profile_picture] => Array
+        (
+            [name] => A.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE45C.tmp
+            [error] => 0
+            [size] => 19383651
+        )
+
+    [cover_photo] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[2025-09-11 20:09:32] Profile picture upload attempted
+[2025-09-11 20:09:32] Starting upload to: uploads/profiles/
+[2025-09-11 20:09:32] File info: Array
+(
+    [name] => A.jpg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\phpE45C.tmp
+    [error] => 0
+    [size] => 19383651
+)
+
+[2025-09-11 20:09:32] Directory is writable: uploads/profiles/
+[2025-09-11 20:09:32] Temporary file exists: C:\xampp\tmp\phpE45C.tmp
+[2025-09-11 20:09:32] Target path: uploads/profiles/68c3105c5fd3f.jpg
+[2025-09-11 20:09:32] Detected MIME type: image/jpeg
+[2025-09-11 20:09:32] File too large: 18.49MB. Maximum size is 5MB
+[2025-09-11 20:09:32] Upload errors: Array
+(
+    [0] => File too large: 18.49MB. Maximum size is 5MB
+)
+
+[2025-09-11 20:09:32] SQL: UPDATE users SET bio = ? WHERE id = ?
+[2025-09-11 20:09:32] Params: Array
+(
+    [0] => 
+    [1] => 1
+)
+
+[2025-09-11 20:09:32] Update result: Success
+[2025-09-11 20:09:32] Rows affected: 0
+[2025-09-11 20:09:37] Upload process started
+[2025-09-11 20:09:37] User ID: 1
+[2025-09-11 20:09:37] POST request received
+[2025-09-11 20:09:37] Bio: 
+[2025-09-11 20:09:37] FILES data: Array
+(
+    [profile_picture] => Array
+        (
+            [name] => df45b1bf-e34b-4902-bc68-e1a633b9072f.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\phpFAC3.tmp
+            [error] => 0
+            [size] => 2750184
+        )
+
+    [cover_photo] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[2025-09-11 20:09:37] Profile picture upload attempted
+[2025-09-11 20:09:37] Starting upload to: uploads/profiles/
+[2025-09-11 20:09:37] File info: Array
+(
+    [name] => df45b1bf-e34b-4902-bc68-e1a633b9072f.png
+    [type] => image/png
+    [tmp_name] => C:\xampp\tmp\phpFAC3.tmp
+    [error] => 0
+    [size] => 2750184
+)
+
+[2025-09-11 20:09:37] Directory is writable: uploads/profiles/
+[2025-09-11 20:09:37] Temporary file exists: C:\xampp\tmp\phpFAC3.tmp
+[2025-09-11 20:09:37] Target path: uploads/profiles/68c31061cb2b6.png
+[2025-09-11 20:09:37] Detected MIME type: image/png
+[2025-09-11 20:09:37] File size OK: 2750184 bytes
+[2025-09-11 20:09:37] File moved successfully to: uploads/profiles/68c31061cb2b6.png
+[2025-09-11 20:09:37] File is a valid image
+[2025-09-11 20:09:37] Upload errors: Array
+(
+)
+
+[2025-09-11 20:09:37] Profile picture filename: 68c31061cb2b6.png
+[2025-09-11 20:09:37] SQL: UPDATE users SET bio = ?, profile_picture = ? WHERE id = ?
+[2025-09-11 20:09:37] Params: Array
+(
+    [0] => 
+    [1] => 68c31061cb2b6.png
+    [2] => 1
+)
+
+[2025-09-11 20:09:37] Update result: Success
+[2025-09-11 20:09:37] Rows affected: 1
+[2025-09-11 20:09:43] Upload process started
+[2025-09-11 20:09:43] User ID: 1
+[2025-09-11 20:09:43] POST request received
+[2025-09-11 20:09:43] Bio: 
+[2025-09-11 20:09:43] FILES data: Array
+(
+    [profile_picture] => Array
+        (
+            [name] => photo_5850648435827526375_y.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php1282.tmp
+            [error] => 0
+            [size] => 183691
+        )
+
+    [cover_photo] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[2025-09-11 20:09:43] Profile picture upload attempted
+[2025-09-11 20:09:43] Starting upload to: uploads/profiles/
+[2025-09-11 20:09:43] File info: Array
+(
+    [name] => photo_5850648435827526375_y.jpg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\php1282.tmp
+    [error] => 0
+    [size] => 183691
+)
+
+[2025-09-11 20:09:43] Directory is writable: uploads/profiles/
+[2025-09-11 20:09:43] Temporary file exists: C:\xampp\tmp\php1282.tmp
+[2025-09-11 20:09:43] Target path: uploads/profiles/68c31067cddc9.jpg
+[2025-09-11 20:09:43] Detected MIME type: image/jpeg
+[2025-09-11 20:09:43] File size OK: 183691 bytes
+[2025-09-11 20:09:43] File moved successfully to: uploads/profiles/68c31067cddc9.jpg
+[2025-09-11 20:09:43] File is a valid image
+[2025-09-11 20:09:43] Upload errors: Array
+(
+)
+
+[2025-09-11 20:09:43] Profile picture filename: 68c31067cddc9.jpg
+[2025-09-11 20:09:43] SQL: UPDATE users SET bio = ?, profile_picture = ? WHERE id = ?
+[2025-09-11 20:09:43] Params: Array
+(
+    [0] => 
+    [1] => 68c31067cddc9.jpg
+    [2] => 1
+)
+
+[2025-09-11 20:09:43] Update result: Success
+[2025-09-11 20:09:43] Rows affected: 1
+[2025-09-11 20:09:49] Upload process started
+[2025-09-11 20:09:49] User ID: 1
+[2025-09-11 20:09:49] POST request received
+[2025-09-11 20:09:49] Bio: 
+[2025-09-11 20:09:49] FILES data: Array
+(
+    [profile_picture] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [cover_photo] => Array
+        (
+            [name] => A.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php261B.tmp
+            [error] => 0
+            [size] => 19383651
+        )
+
+)
+
+[2025-09-11 20:09:49] Cover photo upload attempted
+[2025-09-11 20:09:49] Starting upload to: uploads/covers/
+[2025-09-11 20:09:49] File info: Array
+(
+    [name] => A.jpg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\php261B.tmp
+    [error] => 0
+    [size] => 19383651
+)
+
+[2025-09-11 20:09:49] Directory is writable: uploads/covers/
+[2025-09-11 20:09:49] Temporary file exists: C:\xampp\tmp\php261B.tmp
+[2025-09-11 20:09:49] Target path: uploads/covers/68c3106d07635.jpg
+[2025-09-11 20:09:49] Detected MIME type: image/jpeg
+[2025-09-11 20:09:49] File too large: 18.49MB. Maximum size is 5MB
+[2025-09-11 20:09:49] Upload errors: Array
+(
+    [0] => File too large: 18.49MB. Maximum size is 5MB
+)
+
+[2025-09-11 20:09:49] SQL: UPDATE users SET bio = ? WHERE id = ?
+[2025-09-11 20:09:49] Params: Array
+(
+    [0] => 
+    [1] => 1
+)
+
+[2025-09-11 20:09:49] Update result: Success
+[2025-09-11 20:09:49] Rows affected: 0
+[2025-09-11 20:09:51] Upload process started
+[2025-09-11 20:09:51] User ID: 1
+[2025-09-11 20:09:51] POST request received
+[2025-09-11 20:09:51] Bio: 
+[2025-09-11 20:09:51] FILES data: Array
+(
+    [profile_picture] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [cover_photo] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[2025-09-11 20:09:51] Upload errors: Array
+(
+)
+
+[2025-09-11 20:09:51] SQL: UPDATE users SET bio = ? WHERE id = ?
+[2025-09-11 20:09:51] Params: Array
+(
+    [0] => 
+    [1] => 1
+)
+
+[2025-09-11 20:09:51] Update result: Success
+[2025-09-11 20:09:51] Rows affected: 0
+[2025-09-11 20:10:00] Upload process started
+[2025-09-11 20:10:00] User ID: 1
+[2025-09-11 20:10:00] POST request received
+[2025-09-11 20:10:00] Bio: 
+[2025-09-11 20:10:00] FILES data: Array
+(
+    [profile_picture] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [cover_photo] => Array
+        (
+            [name] => tim-patch-rqsRG26RCEU-unsplash.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php524C.tmp
+            [error] => 0
+            [size] => 6063830
+        )
+
+)
+
+[2025-09-11 20:10:00] Cover photo upload attempted
+[2025-09-11 20:10:00] Starting upload to: uploads/covers/
+[2025-09-11 20:10:00] File info: Array
+(
+    [name] => tim-patch-rqsRG26RCEU-unsplash.jpg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\php524C.tmp
+    [error] => 0
+    [size] => 6063830
+)
+
+[2025-09-11 20:10:00] Directory is writable: uploads/covers/
+[2025-09-11 20:10:00] Temporary file exists: C:\xampp\tmp\php524C.tmp
+[2025-09-11 20:10:00] Target path: uploads/covers/68c31078454a3.jpg
+[2025-09-11 20:10:00] Detected MIME type: image/jpeg
+[2025-09-11 20:10:00] File too large: 5.78MB. Maximum size is 5MB
+[2025-09-11 20:10:00] Upload errors: Array
+(
+    [0] => File too large: 5.78MB. Maximum size is 5MB
+)
+
+[2025-09-11 20:10:00] SQL: UPDATE users SET bio = ? WHERE id = ?
+[2025-09-11 20:10:00] Params: Array
+(
+    [0] => 
+    [1] => 1
+)
+
+[2025-09-11 20:10:00] Update result: Success
+[2025-09-11 20:10:00] Rows affected: 0

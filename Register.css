@@ -1,0 +1,31 @@
+#registerForm{
+    width:400px;
+    border-radius: 1px;
+    height: 102vh;
+}
+#registerForm h1 {
+    left:100px;
+}
+#registerForm .InputsHolder{
+    height:200px;
+    padding:5px;
+    top:80px;
+    scale:0.8
+
+}
+#registerForm .input-group {
+    padding: 5px;
+    margin-top:-20px;
+}
+#registerForm .LoginButton{
+    top:290px;
+    left:-20px;
+    position: absolute;
+}
+#registerForm .Warning{
+    margin-top:200px;
+    width: 358px;
+    z-index: -1;
+    height: 50px;
+    display: none;
+}
